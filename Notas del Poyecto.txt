@@ -1,0 +1,18 @@
+La principal problema que presenta es que las personas no saben como gestionar las finanzas personales, no saben cual es el gasto mensual que llevan y piensan que en que solo se puede ahorrar/invertir cuando solo se gana más. 
+
+Aqui es cuando entra en juego Finanzas Personales,donde el usuario no solo conocera sus gastos sino que tambien pobra visualizar cuanto se acerca a sus objetivos financieros. 
+
+En la app se muestran el apartado de: 
+
+-Gastos,cuenta de una tabla que muestran los valores
+-Objetivos Financieros,cuenta de 3 indicadores, el primero donde el se indica el objetivo del monto a ahorrar, el segundo el monto real ahorrado y por ultimo el tercer indicador muestra un porcentaje del cumplimiento del objetivo.
+-Calendario, muestra las fechas de pagos de dividendos de los usuarios
+-Calculadora de inversion  
+
+
+Plan de finanzas: 
+1-Sanar deudas de menor a mayor 
+2-Hacer compras que se puede hacer 
+3-Deposito de emergencia: poder vivir de 3 a 6 meses, mayor si es mayor la responsabilidad. Lo afecta la inflacion
+4-Presupuesto mensual: 60% gastos fijos, 20% gastos libres de culpa(priorizar), 10% ahorros y 10% inversion(invertir a largo plazo)  
+5-Crear un sistema automatizado de finanzas. Dividir en 4 cuentas, General, Deposito de emergencia, Inversion y Ahorros 

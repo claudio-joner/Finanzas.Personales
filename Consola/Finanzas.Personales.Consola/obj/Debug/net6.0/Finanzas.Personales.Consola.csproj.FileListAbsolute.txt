@@ -1,0 +1,15 @@
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\bin\Debug\net6.0\Finanzas.Personales.Consola.exe
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\bin\Debug\net6.0\Finanzas.Personales.Consola.deps.json
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\bin\Debug\net6.0\Finanzas.Personales.Consola.runtimeconfig.json
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\bin\Debug\net6.0\Finanzas.Personales.Consola.dll
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\bin\Debug\net6.0\Finanzas.Personales.Consola.pdb
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.AssemblyInfoInputs.cache
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.AssemblyInfo.cs
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.sourcelink.json
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.dll
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\refint\Finanzas.Personales.Consola.dll
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.pdb
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\Finanzas.Personales.Consola.genruntimeconfig.cache
+E:\Proyectos\C#\Finanzas.Personales\Finanzas.Personales\Consola\Finanzas.Personales.Consola\obj\Debug\net6.0\ref\Finanzas.Personales.Consola.dll
