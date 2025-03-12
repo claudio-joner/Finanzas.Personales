@@ -16,3 +16,51 @@ Plan de finanzas:
 3-Deposito de emergencia: poder vivir de 3 a 6 meses, mayor si es mayor la responsabilidad. Lo afecta la inflacion
 4-Presupuesto mensual: 60% gastos fijos, 20% gastos libres de culpa(priorizar), 10% ahorros y 10% inversion(invertir a largo plazo)  
 5-Crear un sistema automatizado de finanzas. Dividir en 4 cuentas, General, Deposito de emergencia, Inversion y Ahorros 
+
+
+Funcionalidades de cada clase: 
+
+Usuarios:
+Atributos
+-nombre:nombre del usuario 
+-objetivo:monto final a alcanzar
+-ahorro: monto ahorrado 
+-fecha:cant. de meses para alcanzar dicho objetivo 
+-listMoviimentos: lista de los ingreso y egresos financieros del usuario
+-idUsuario: identificador único para los usuarios
+Métodos
+*ListarMovimientos(int idUsuario): lista todos los movimientos de un usuario.Se detalla si es un ingreso o egreso,monto,motivo y una descrición del mismo.
+*ActualizarMov(int idUsuario,int idMov):actualiza un movimiento, solo se permite hacerlo en el mismo día, pasado la fecha seleccionar AnularMovimiento.
+*AnularMovimiento(int idUsuario,int idMov): metodo que solicita el id del movimiento a anular, automaticamente se cambia el estado de este para que no se visualice y 
+se crean 2 nuevos movimientos. 
+El primero que se crea  tiene TipoMovimiento opuesto al que se da de baja, para la fecha es la misma cuando se produce la anulación y los demás items tienen los mismos valores.
+El segundo movimiento tiene por TipoMovimiento igual a Anulación,en el Campo Descripcion se indica: "Movimiento de Anulación. Movimiento Anulado: id . Nuevo Movimiento: id"; los demás
+campos poseen los mismo valores.
+*CargarMov(int idUsuario):agrega un movimiento a la lista anterior
+*BorrarMov(int idUsuario,int idMov):elimina un movimiento al usuario.
+*BorraLogico(int idUsuario,int idMov):sirve para cambiar el estado de un movimiento y que no se puede visualizar al ListarMovimientos.
+*PorcentajeCumplimiento(int idUsuario): calcula el porcentaje de ahorro según el objetivo de ahorro y lo muestra en un mensaje.
+
+Movimientos:
+Atributos
+-IdMovimiento:identificador único para un movimiento.
+-TipoMovimiento:nos indica si es un ingreso o egreso. 
+-Motivo:indica el motivo de dicho movimiento Ej: Servicio.
+-Monto:el monto de dinero del movimiento.
+-Descripcion:nos dice algún dato mas que no pueda ser descripto en por el motivo.
+-FechaCarga:es cuando se agrega a la lista de gastos, se aconsejo hacerlo el mismo día para tener un control mas exacto. 
+-Estado:campo que en caso de estar verdadero hace que el movimiento se vea,caso contrario no se puede visualizar.
+Métodos
+*ToString(): método que muesta un movimiento.
+
+Menu:
+Métodos:
+*MostrarMenu(string mensaje): metodo encargado de mostrar un mensaje y el método MenuOpciones(int respuesta).
+*MenuOpciones(int respuesta): método que recibe un parametro,dependiendo del valor de dicho parámetro, llamará a un método en particular.
+*MenuSalir(): método que sirve para salir de la app.
+*MenuCrearUsuario(): método que sirve para crear un usuario.
+*MenuBuscarUsuario(string nombre): método que sirve para buscar un usuario por id o nombre.
+*MenuModificarUsuario(string nombre): método que sirve para modificar los datos de un usuario.
+*MenuVolver(): método que verifica la posición de navegación del usuario,modifica dicha posición y según esta vuelve al menú anterior.
+
+

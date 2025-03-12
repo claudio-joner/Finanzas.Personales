@@ -23,6 +23,18 @@ namespace Finanzas.Personales.Consola.Dominio
             Estado = true;            
         }
 
+        public Movimiento(int id,EnumTipo tipo, EnumMotivo motivo, double monto,string descrip)
+        {
+            IdMovimiento = id;
+            TipoMovimiento = tipo;
+            Motivo = motivo; 
+            Monto = monto;
+            Descripcion = descrip;
+            FechaCharga = DateTime.Now;
+            Estado = true;
+
+        }
+
         public override string ToString()
         {
             return $"TipoMovimiento = {TipoMovimiento} |Motivo = {Motivo} |Monto = {Monto} |Descripcion: {Descripcion}|" +

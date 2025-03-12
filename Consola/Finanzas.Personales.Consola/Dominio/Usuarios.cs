@@ -11,21 +11,31 @@ namespace Finanzas.Personales.Consola.Dominio
         public string NombreUsuario { get; set; }
         public double Objetivo { get; set; }
         public List<Movimiento> listMovimiento { get; set; }
-        public int idUsuario { get; set; }
-
+        public int IdUsuario { get; set; }
+        public DateTime Fecha { get; set; }
+        public int Ahorro { get; set; }
+        public Usuarios()
+        {
+            
+        }
         public Usuarios(string nom, double obj) //Despues se ira agregando cada vez mas prop
         {
             NombreUsuario = nom;
             Objetivo = obj;
             listMovimiento = new List<Movimiento>();
-            idUsuario = 0;
+            IdUsuario = 0;
+            Fecha = DateTime.Now;
+            Ahorro = 0;
         }
 
         public void ListarMovimientos()
         {
             foreach (var item in listMovimiento)
             {
-                item.ToString();
+                if (item.Estado)
+                {
+                    item.ToString();
+                }
             }
         }
 
@@ -75,6 +85,20 @@ namespace Finanzas.Personales.Consola.Dominio
                 if(mov.IdMovimiento == m.IdMovimiento)
                 {
                     m.Estado = false;
+                }
+            }
+        }
+
+        public bool AnularMovimiento(Usuarios usuario, int idMov)
+        {
+            foreach (Movimiento movimiento in usuario.listMovimiento)
+            {
+                if(idMov == movimiento.IdMovimiento)
+                {
+                    movimiento.Estado = false;
+                    Movimiento movimientoBaja = new Movimiento();
+
+
                 }
             }
         }
